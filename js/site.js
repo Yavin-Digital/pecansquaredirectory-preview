@@ -21,14 +21,16 @@ window.SITE = {
   "favicon": null,
   "monogram": "P",
   "colors": {
-   "ink": "#1c1a14",
-   "slate": "#2e2a20",
-   "paper": "#f6f2ea",
+   "ink": "#2a1a10",
+   "slate": "#33200f",
+   "paper": "#f7efe3",
    "gold": "#D97706",
-   "goldD": "#92400e",
+   "goldD": "#7c2d12",
    "kickerOnPhoto": "#fcd34d"
   },
-  "hero": null
+  "hero": null,
+  "coords": "33.0922° N, 97.2456° W",
+  "motif": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><!-- stylized pecan (Carya illinoinensis) compound leaf: pinnate leaflets on a central rachis --><path d=\"M40 30 H320\"/><path d=\"M40 30 H4 M320 30 H356\" stroke-width=\"1\"/><g><path d=\"M90 30 C96 14 116 10 124 14 C118 22 104 28 90 30Z\"/><path d=\"M90 30 C96 46 116 50 124 46 C118 38 104 32 90 30Z\"/><path d=\"M140 30 C146 14 166 10 174 14 C168 22 154 28 140 30Z\"/><path d=\"M140 30 C146 46 166 50 174 46 C168 38 154 32 140 30Z\"/><path d=\"M190 30 C196 14 216 10 224 14 C218 22 204 28 190 30Z\"/><path d=\"M190 30 C196 46 216 50 224 46 C218 38 204 32 190 30Z\"/><path d=\"M240 30 C246 14 266 10 274 14 C268 22 254 28 240 30Z\"/><path d=\"M240 30 C246 46 266 50 274 46 C268 38 254 32 240 30Z\"/><path d=\"M288 30 C300 20 318 22 326 30 C318 38 300 40 288 30Z\"/></g></svg>"
  },
  "join": {
   "price": 29,
@@ -384,6 +386,33 @@ window.SITE = {
    "Pecan Square is in Northwest ISD. Check your campus by address with the district."
   ]
  ],
+ "heroComposition": "name-mark",
+ "accentRole": "numeral",
+ "layout": {
+  "radius": "2px",
+  "ruleWeight": "1px",
+  "bandOrder": [
+   "quick",
+   "intents"
+  ]
+ },
+ "type": {
+  "display": {
+   "family": "EB Garamond",
+   "file": "ebgaramond",
+   "weight": 600,
+   "range": "500 700",
+   "fallback": "Georgia,serif"
+  },
+  "text": [
+   {
+    "family": "Source Sans 3",
+    "file": "sourcesans3",
+    "range": "400 700",
+    "fallback": "system-ui,sans-serif"
+   }
+  ]
+ },
  "resources": [
   {
    "id": "hoa",
